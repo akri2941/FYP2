@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BLOG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blogPage">
+
+
+    <TextView
+        android:id="@+id/blogpagehead"
+        android:layout_width="329dp"
+        android:layout_height="69dp"
+        android:fontFamily="@font/coiny"
+        android:paddingLeft="15dp"
+        android:text="Blog"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/blogQ1"
+            android:layout_width="321dp"
+            android:layout_height="72dp"
+            android:background="@drawable/blogqa"
+            android:clickable="true"
+            android:fontFamily="@font/salsa"
+            android:onClick="@string/bottom_sheet_behavior"
+            android:padding="20dp"
+            android:text="QN1"
+            android:textColor="#170D0D"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="171dp" />
+
+        <TextView
+            android:id="@+id/blogQ2"
+            android:layout_width="321dp"
+            android:layout_height="72dp"
+            android:background="@drawable/blogqa"
+            android:clickable="true"
+            android:fontFamily="@font/salsa"
+            android:padding="20dp"
+            android:text="QN2"
+            android:textColor="#170D0D"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/blogQ3"
+            android:layout_width="321dp"
+            android:layout_height="72dp"
+            android:background="@drawable/blogqa"
+            android:clickable="true"
+            android:fontFamily="@font/salsa"
+            android:padding="20dp"
+            android:text="QN3"
+            android:textColor="#170D0D"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="415dp"/>
+
+    <TextView
+        android:id="@+id/blogQ4"
+        android:layout_width="321dp"
+        android:layout_height="72dp"
+        android:background="@drawable/blogqa"
+        android:clickable="true"
+        android:fontFamily="@font/salsa"
+        android:padding="20dp"
+        android:text="QN3"
+        android:textColor="#170D0D"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="543dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
